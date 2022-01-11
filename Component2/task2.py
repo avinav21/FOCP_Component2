@@ -15,7 +15,7 @@ while True:
         print("Invalid input")
         continue
 
-    elif user_input[1:].isnumeric()==False:#check if the value entered is neumeric type 
+    elif user_input[1:].isalpha():#check if the value entered is neumeric type 
         print("Invalid input")
         continue
 
